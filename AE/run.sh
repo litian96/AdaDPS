@@ -1,0 +1,16 @@
+python3 main.py --method dp-rmsprop \
+  --use_public 0 \
+  --epsilon 1e-10 \
+  --sigma 1 \
+  --clipping_bound 0.01 \
+  --lr 0.005 \
+  --public_bs 64 \
+  --epochs 80 \
+  --scale 0 \
+  --division 10 \
+  --momentum 0 \
+  --momentum_parameter 0.9 \
+  --batch_size 64 \
+  --num_microbatches 16 \
+  --scale_by freq \
+  --seed 0

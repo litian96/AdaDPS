@@ -1,0 +1,13 @@
+python3 main.py --method dp-sgd \
+  --use_public 1 \
+  --epochs 50 \
+  --scale 0 \
+  --multiplier_cap 300000 \
+  --coordinate_cap 1 \
+  --momentum 0 \
+  --momentum_parameter 0.9 \
+  --sigma 0.95 \
+  --batch_size 64 \
+  --num_microbatches 32 \
+  --clipping_bound 2 \
+  --lr 1
