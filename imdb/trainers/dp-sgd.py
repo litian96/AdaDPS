@@ -76,7 +76,7 @@ class Trainer(BaseTrainer):
                     if self.use_public:
                         for p_name, p in self.model.named_parameters():
                             # p.grad = 0.9 * p.grad + 0.1 * self.mean[p_name]  # momentum, optional
-                            p.grad = p.grad / torch.sqrt(self.preconditioner[p_name]+1e-5)
+                            p.grad = p.grad / torch.sqrt(self.preconditioner[p_name]+self.epsilon)
 
                     clip_grad_norm_(self.model.parameters(), self.clipping_bound)
 
