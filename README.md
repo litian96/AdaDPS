@@ -1,7 +1,7 @@
 # Private Adaptive Optimization with Side Information
 
 
-This repository contains the code and experiments for the manuscript:
+This repository contains the code and experiments for the paper (ICML'22):
 
 > [Private Adaptive Optimization with Side Information](https://arxiv.org/abs/2202.05963)
 
